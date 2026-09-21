@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>D&D Club</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside id="stats">
+        <fieldset>
+            <legend>Str</legend>
+            <textarea id="stats-str" placeholder="?" class="stat-mod"></textarea>
+            <textarea id="stats-str-mod" placeholder="+5" class="stat-value"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Dex</legend>
+            <textarea id="stats-dex" placeholder="?" class="stat-mod"></textarea>
+            <textarea id="stats-dex-mod" placeholder="+5" class="stat-value"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Con</legend>
+            <textarea id="stats-con" placeholder="?" class="stat-mod"></textarea>
+            <textarea id="stats-con-mod" placeholder="+5" class="stat-value"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Int</legend>
+            <textarea id="stats-int" placeholder="?" class="stat-mod"></textarea>
+            <textarea id="stats-int-mod" placeholder="+5" class="stat-value"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Wis</legend>
+            <textarea id="stats-wis" placeholder="?" class="stat-mod"></textarea>
+            <textarea id="stats-wis-mod" placeholder="+5" class="stat-value"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Cha</legend>
+            <textarea id="stats-cha" placeholder="?" class="stat-mod"></textarea>
+            <textarea id="stats-cha-mod" placeholder="+5" class="stat-value"></textarea>
+        </fieldset>
+    </aside>
+    <header id="Header">
+        <div id="names">
+            <fieldset>
+                <legend>Name</legend>
+                <input type="text" id="names-name" placeholder="Press CTRL+P to print">
+            </fieldset>
+            <fieldset>
+                <legend>Race</legend>
+                <input type="text" id="names-race" placeholder="Race?">
+            </fieldset>
+            <fieldset>
+                <legend>Class</legend>
+                <input type="text" id="names-class" placeholder="Class?">
+            </fieldset>
+        </div>
+        <div id="core">
+            <fieldset id="core-health">
+                <legend>HP</legend>
+                <input type="text" id="core-hp-max" placeholder="Max HP?">
+                <input type="text" id="core-hp-curr" placeholder="Current HP?">
+            </fieldset>
+            <fieldset>
+                <legend>Speed</legend>
+                <input type="text" id="core-speed" placeholder="Speed?">
+            </fieldset>
+            <fieldset>
+                <legend>AC</legend>
+                <input type="text" id="core-ac" placeholder="AC?">
+            </fieldset>
+            <fieldset>
+                <legend>Init</legend>
+                <input type="text" id="core-init" placeholder="Init?">
+            </fieldset>
+            <fieldset>
+                <legend>PB</legend>
+                <input type="text" id="core-pb" placeholder="PB?">
+            </fieldset>
+        </div>
+        <div id="deathsaves">
+            <p>Successes</p>
+            <div class="death-save">◯</div>
+            <div class="death-save">◯</div>
+            <div class="death-save">◯</div>
+            <p>—  Death saves  —</p>
+            <div class="death-save">◯</div>
+            <div class="death-save">◯</div>
+            <div class="death-save">◯</div>
+            <p>Fails</p>
+        </div>
+    </header>
+    <section id="actions">
+        <h2>Actions</h2>
+        <div>
+            <fieldset>
+                <legend><input type="text" placeholder="Name"></legend>
+                <input type="text" placeholder="Attack Bonus">
+                <input type="text" placeholder="Damage/Type">
+                <textarea type="text" placeholder="Info"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend><input type="text" placeholder="Name"></legend>
+                <input type="text" placeholder="Attack Bonus">
+                <input type="text" placeholder="Damage/Type">
+                <textarea type="text" placeholder="Info"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend><input type="text" placeholder="Name"></legend>
+                <input type="text" placeholder="Attack Bonus">
+                <input type="text" placeholder="Damage/Type">
+                <textarea type="text" placeholder="Info"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend><input type="text" placeholder="Name"></legend>
+                <input type="text" placeholder="Damage/Type">
+                <input type="text" placeholder="Attack Bonus">
+                <textarea type="text" placeholder="Info"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend><input type="text" placeholder="Name"></legend>
+                <input type="text" placeholder="Damage/Type">
+                <input type="text" placeholder="Attack Bonus">
+                <textarea type="text" placeholder="Info"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend><input type="text" placeholder="Name"></legend>
+                <input type="text" placeholder="Damage/Type">
+                <input type="text" placeholder="Attack Bonus">
+                <textarea type="text" placeholder="Info"></textarea>
+            </fieldset>
+        </div>
+    </section>
+    <section id="inventory">
+        <h2>Items</h2>
+        <h2>Resources</h2>
+        <h2>Money</h2>
+        <textarea placeholder="Items"></textarea>
+        <textarea placeholder="Resources"></textarea>
+        <textarea placeholder="Money"></textarea>
+    </section>
+</body>
+</html>
